@@ -1,5 +1,7 @@
+org: summerswl
+app: serverless-template
 ---
-service: serverless-react-boilerplate
+service: serverless-template
 frameworkVersion: "3"
 useDotenv: true
 variablesResolutionMode: 20210326
