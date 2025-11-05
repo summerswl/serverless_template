@@ -1,6 +1,5 @@
 org: summerswl
 app: serverless-template
----
 service: serverless-template
 frameworkVersion: "3"
 useDotenv: true
@@ -10,7 +9,7 @@ disabledDeprecations:
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs20.x
   region: ${opt:region, 'us-east-1'}
   stage: ${opt:stage, 'dev'}
   memorySize: 512
